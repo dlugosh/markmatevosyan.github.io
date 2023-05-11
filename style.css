@@ -54,8 +54,7 @@ h1 {
     background-image:
       linear-gradient(to right bottom,
      rgba(115, 155, 230, 0.7),
-     rgba(30, 108, 217, 0)),
-     url('https://images.pexels.com/photos/213399/pexels-photo-213399.jpeg');
+     rgba(30, 108, 217, 0)));
    
     background-size: cover;
     background-position: top;
