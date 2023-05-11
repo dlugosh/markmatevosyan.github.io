@@ -105,6 +105,11 @@ h2{
   text-align: center;
   color: black;
   font-size: 50px;
+}
+.first:hover {
+    text-align: center;
+  color: black;
+  font-size: 50px;
   box-shadow: 2px 2px 2px 2px red;
   background-color: white;
 }
@@ -113,17 +118,36 @@ h2{
   color: black;
   font-size: 50px;
 }
-.third{
-  text-align: center;
+.second:hover {
+      text-align: center;
   color: black;
   font-size: 50px;
   box-shadow: 2px 2px 2px 2px red;
   background-color: white;
 }
-.fourth{
+.third{
   text-align: center;
   color: black;
   font-size: 50px;
+}
+.third:hover {
+      text-align: center;
+  color: black;
+  font-size: 50px;
+  box-shadow: 2px 2px 2px 2px red;
+  background-color: white;
+}
+.fourth {
+  text-align: center;
+  color: black;
+  font-size: 50px;
+}
+.fourth:hover {
+      text-align: center;
+  color: black;
+  font-size: 50px;
+  box-shadow: 2px 2px 2px 2px red;
+  background-color: white;
 }
 nav {
     text-align: center;
