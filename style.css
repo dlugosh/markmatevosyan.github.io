@@ -34,7 +34,7 @@ body {
 
 h1 {
     text-align: center;
-  font-size: 70px;
+  font-size: 120px;
   font-weight: 600;
   background-image: url('https://img.freepik.com/free-vector/minimal-colorful-pattern-with-curvy-lines-background_1035-17333.jpg');
   background-size: 250px;
@@ -105,6 +105,8 @@ h2{
   text-align: center;
   color: black;
   font-size: 50px;
+  box-shadow: 2px 2px 2px 2px red;
+  background-color: white;
 }
 .second{
   text-align: center;
@@ -115,6 +117,8 @@ h2{
   text-align: center;
   color: black;
   font-size: 50px;
+  box-shadow: 2px 2px 2px 2px red;
+  background-color: white;
 }
 .fourth{
   text-align: center;
