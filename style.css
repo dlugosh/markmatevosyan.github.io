@@ -126,6 +126,40 @@ h2{
   color: black;
   font-size: 50px;
 }
+.pills {
+ margin-left: 0;
+  list-style: none;
+  counter-reset: li;
+  font-family: calibri;
+}
+.pills li {
+  padding: 10px 0;
+  position: relative;
+  left: 1.5em;
+  margin-bottom: 0.75em;
+  padding-left: 1em;
+  background-image: linear-gradient(to right, rgba(255,255,255, 1), rgba(0,0,255, 0.1));
+}
+.pills li:before {
+  padding: 10px 0;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: -1.5em;
+  width: 1.875em;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  background: black;
+  border-bottom-left-radius: 70em;
+  border-top-left-radius: 70em;
+  counter-increment: li;
+  content: counter(li);
+}
+
+.image {
+  text-align: center;
+}
 .footer{
 background:#000;
 padding:30px 0px;
