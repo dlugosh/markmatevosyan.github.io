@@ -96,16 +96,30 @@ font-family: 'Times New Roman', Times, serif;
     font-weight: 900;
     letter-spacing: 5px;
 }
+h2{
+  text-align: center;
+  color: gold;
+  font-size:100px;
+}
 .first{
-    text-align: center;
-    color: chartreuse;
+  text-align: center;
+  color: black;
+  font-size: 50px;
 }
 .second{
-    text-align: center;
-    color: rgb(20, 238, 111);
+  text-align: center;
+  color: black;
+  font-size: 50px;
 }
 .third{
   text-align: center;
+  color: black;
+  font-size: 50px;
+}
+.fourth{
+  text-align: center;
+  color: black;
+  font-size: 50px;
 }
 
 .pills {
