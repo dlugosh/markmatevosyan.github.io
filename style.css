@@ -121,6 +121,9 @@ h2{
   color: black;
   font-size: 50px;
 }
+nav {
+    text-align: center;
+}
 .link-nav {
     color: white;
 }
