@@ -121,7 +121,9 @@ h2{
   color: black;
   font-size: 50px;
 }
-
+.link-nav {
+    color: white;
+}
 .pills {
  margin-left: 0;
   list-style: none;
