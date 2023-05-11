@@ -54,7 +54,8 @@ h1 {
     background-image:
       linear-gradient(to right bottom,
      rgba(115, 155, 230, 0.7),
-     rgba(30, 108, 217, 0)));
+     rgba(30, 108, 217, 0)),
+     url('https://images.pexels.com/photos/213399/pexels-photo-213399.jpeg');
    
     background-size: cover;
     background-position: top;
@@ -191,30 +192,8 @@ width:100%;
 display:inline-block;
 margin:0px 30px;
 }
-.sovety {
-    color: white;
-    font-family:  'Helvetica Neue', sans-serif;   
-}
 
-.link-text {
-    color: red;
-    box-shadow: 2px 2px 2px 2px white;
-}
 
-p {
-    color: white;
-}
-.advice, .instruments {
-    color: white;
-    background-image: none;
-    font-size: 45px;
-    box-shadow: 5px 5px 5px 5px red;
-    text-align: center;
-
-}
-.instrumentsdiv {
-    text-align: center;
-}
 .footer .row a i{
 font-size:2em;
 margin:0% 1%;
@@ -222,8 +201,7 @@ margin:0% 1%;
 
 
 @media (max-width:720px) {
-.footer
-{
+.footer{
 text-align:left;
 padding:5%;
 }
@@ -235,3 +213,4 @@ text-align:left;
 .footer .row a i{
 margin:0% 3%;
 }
+
