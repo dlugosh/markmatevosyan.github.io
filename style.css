@@ -101,6 +101,13 @@ h2{
   color: gold;
   font-size:100px;
 }
+h2:hover {
+    color: black;
+}
+
+h1:hover {
+    color: gold;
+}
 .first{
   text-align: center;
   color: black;
