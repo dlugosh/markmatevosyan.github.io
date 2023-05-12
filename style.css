@@ -101,60 +101,26 @@ h2{
   color: gold;
   font-size:100px;
 }
-h2:hover {
-    color: black;
-}
 
-h1:hover {
-    color: gold;
-}
 .first{
   text-align: center;
   color: black;
   font-size: 50px;
-}
-.first:hover {
-    text-align: center;
-  color: black;
-  font-size: 50px;
-  box-shadow: 2px 2px 2px 2px red;
-  background-color: white;
 }
 .second{
   text-align: center;
   color: black;
   font-size: 50px;
 }
-.second:hover {
-      text-align: center;
-  color: black;
-  font-size: 50px;
-  box-shadow: 2px 2px 2px 2px red;
-  background-color: white;
-}
 .third{
   text-align: center;
   color: black;
   font-size: 50px;
 }
-.third:hover {
-      text-align: center;
-  color: black;
-  font-size: 50px;
-  box-shadow: 2px 2px 2px 2px red;
-  background-color: white;
-}
 .fourth {
   text-align: center;
   color: black;
   font-size: 50px;
-}
-.fourth:hover {
-      text-align: center;
-  color: black;
-  font-size: 50px;
-  box-shadow: 2px 2px 2px 2px red;
-  background-color: white;
 }
 nav {
     text-align: center;
@@ -195,16 +161,17 @@ nav {
 
 .image {
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .sovety {
     color: white;
     font-family:  'Helvetica Neue', sans-serif;
-    text-align: center;
 }
 
 .link-text {
     color: red;
-    box-shadow: 2px 2px 2px 2px white;
 }
 
 p {
@@ -214,7 +181,6 @@ p {
     color: white;
     background-image: none;
     font-size: 45px;
-    box-shadow: 5px 5px 5px 5px red;
     text-align: center;
 
 }
